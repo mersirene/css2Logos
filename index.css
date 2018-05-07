@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+}
+
+.box {
+    width: 100px;
+    height:100px;
+    background-color: lightblue;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    /*margin: 30px 50px;*/
+    margin: 50px;
+    padding-top: 30px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: aqua;
+    border-right: 5px dotted green;
+    border: 7px dashed gray;
+    /*border-top-left-radius: 15px;*/
+    /*border-radius: 50px;*/
+    outline: 10px double violet;
+    outline-offset: 5px;
+    display: inline;
+}
+
+#link {
+    width: 80px;
+    height: 80px;
+    background-color: aquamarine;
+    margin: 30px;
+    padding: 20px;
+    border: 2px solid black;
+    display: block;
+}
+
+.text {
+    width: 500px;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: justify;
+}
+.koala {
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+.boxes {
+    width: 200px;
+    height: 300px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid black;
+    /*float: left;*/
+    display: inline-block;
+    margin-right: -4px;
+}
+
+.bgRed {
+    background-color: red;
+}
+
+.bgGreen {
+    background-color: green;
+}
+
+.bgYellow {
+    background-color: yellow;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    /*clear: both;*/
+}
+
+/*.wrapper::after {*/
+/*    content: "";*/
+/*    display: block;*/
+/*    clear: both;*/
+/*}*/
+
+.hover {
+    width: 400px;
+    height: 300px;
+    background-color: beige;
+    /*background: linear-gradient(to top, yellow, red);*/
+    /*background: linear-gradient(to bottom, #1c92d2, #f2fcfe);*/
+    /*background-image: url(preview_big_28221.normal.jpeg);*/
+    /*background-size: 100% 100%;*/
+    /*background-position: top;*/
+    margin: 100px auto;
+    overflow: auto;
+    transition: 0.8s;
+    font-size: 18px; /*vmin, vmax, vm, pt(are not used) px, %, em, rem*/
+    font-style: italic;
+    font-weight: bold;
+    /*font-variant: small-caps;*/
+    text-align: justify;
+    line-height: 22px;
+    letter-spacing: -1px;
+    word-spacing: -2px;
+    text-indent: 40px;
+    text-decoration: overline;
+    text-decoration-color: red;
+    text-decoration-style: 
+    text-transform: capitalize;
+}
+
+.hover:hover {
+    height: 400px;
+    color: green;
+    /*transform: rotate(360deg);*/
+    /*transform: scale(1.5);*/
+    /*transform: skewX(45deg);*/
+}
